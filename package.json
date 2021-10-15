@@ -1,0 +1,23 @@
+{
+  "name": "room5.net",
+  "version": "1.0.0",
+  "description": "room5.net",
+  "main": "index.html",
+  "scripts": {
+    "copy": "mkdir -p dist && cp CNAME dist && cp src/index.html dist && cp src/bg.jpg dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttam/room5.net.git"
+  },
+  "author": "Matt Bannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttam/room5.net/issues"
+  },
+  "homepage": "https://room5.net",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
